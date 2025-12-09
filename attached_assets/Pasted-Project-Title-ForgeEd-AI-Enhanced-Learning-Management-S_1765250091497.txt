@@ -1,0 +1,372 @@
+Project Title: ForgeEd - AI-Enhanced Learning Management System
+
+Team ForgeEd:
+
+Ullas Giddegowda Gowda
+Pavan Kumar Suresh
+Pranay Reddy Shashidhar Reddy
+Ruthvik Ajit Chiniwal
+Harshith Shivaswamy
+Live URL: https://forgeed.replit.app/
+
+GitHub Repository: https://github.com/pavankumars97531/forgeed
+
+📊 Executive Summary
+The rapid evolution of Generative AI is reshaping expectations in higher education, yet most university systems remain fragmented—separating academics, wellbeing, and career development into disconnected platforms. Through this Project, Team Forge examined this critical gap and identified the core challenge: students lack a unified, personalized support system that can guide them academically, emotionally, and professionally.
+
+This fragmentation results in:
+
+Inconsistent academic performance
+Poor course selection and planning
+Disconnected mental health support
+Limited career preparedness
+To address this systemic problem, our team developed ForgeEd, an AI-enhanced Learning Management System specifically designed for Universities. ForgeEd integrates traditional LMS capabilities with advanced GenAI features, including:
+
+✅ Personalized Tutoring (SLU GPT) - 24/7 AI academic support
+✅ AI-Generated Learning Pathways - 90-day career learning roadmaps
+✅ Dual-Quiz Assessments - Career and academic performance tracking
+✅ Wellbeing Monitoring - Daily mental health indicators
+✅ Predictive Analytics - Early risk detection and intervention
+✅ Dynamic Recommendations - Personalized learning and course suggestions
+
+Expected Impact: Improved GPA outcomes, early detection of academic risk, increased student engagement, better career alignment, and reduced faculty workload through intelligent automation.
+
+🔍 Problem Context & Stakeholders
+The Challenge
+Higher education is undergoing significant transformation as universities attempt to integrate emerging GenAI technologies into traditional academic structures. Despite rapid innovation across learning platforms, most universities rely on fragmented systems that separately manage courses, wellbeing services, and career support.
+
+Core Problem: Students do not receive integrated, timely, and personalized support across academics, wellbeing, and career development, leading to:
+
+Irregular academic performance
+Unnecessary stress
+Inefficient course planning
+Limited preparedness for industry roles
+Key Stakeholders
+Students (Primary)
+
+Struggle with navigating multiple systems for assignments, grades, and career resources
+Lack actionable insights into academic trajectory and skill gaps
+Need early warning systems and predictive insights for timely intervention
+Faculty Members
+
+Face pressure to provide individualized feedback while managing grading and administration
+Have limited visibility into student challenges and engagement patterns
+Cannot deliver targeted support without consolidated data
+Academic Advisors & Program Coordinators
+
+Require holistic student views for course selection and progress monitoring
+Currently piece together information manually, increasing workload
+Need data-driven systems for personalized academic planning
+University Administration
+
+Aim to enhance retention rates and support student wellbeing
+Lack consolidated dashboards or predictive analytics
+Need resource allocation insights and program-level risk identification
+Industry & Education Partners
+
+Expect graduates with strong technical skills, adaptability, and emotional resilience
+Require evidence of career readiness and non-academic growth
+🔬 Research & Insights
+Industry Trends Identified
+Our research highlighted several industry-wide trends relevant to SLU's environment:
+
+GenAI-Driven Adaptive Learning - Personalized, dynamic learning experiences
+AI Copilots for Research & Tutoring - 24/7 academic support systems
+Integrated Dashboards - Combined academic and wellbeing data visualization
+Early-Risk Detection Models - Proactive student retention strategies
+Holistic Student Profiles - Unified data across academic, social, and emotional dimensions
+Key Findings
+Existing LMS Limitations: Current platforms (Canvas, Blackboard, etc.) are primarily administrative—handling assignments, grades, and scheduling—but lack deep personalization and behavioral insights
+
+Holistic Data Importance: Combining academic metrics (GPA, quiz performance, course progress) with wellbeing indicators (motivation, energy, stress, sleep) creates significantly more accurate representations of student experience
+
+Early Intervention Value: Research confirms that academic performance, wellbeing, and engagement are interdependent. Students benefit significantly from early warnings, personalized recommendations, and clear learning pathways
+
+Market Demand: Strong evidence supports demand for adaptive learning tools, mental health-aware systems, and AI-powered academic coaching
+
+💡 Proposed Solution
+ForgeEd is a unified, AI-enhanced Learning Management System designed to support students holistically across academics, wellbeing, and career development. The platform combines traditional LMS features with advanced GenAI capabilities to create a personalized, data-driven mentoring environment.
+
+Core Functional Modules
+1. AI-Powered Learning & Tutoring (SLU GPT)
+
+24/7 academic support and personalized explanations
+Study strategies and contextual guidance
+Based on enrolled courses and career goals
+Rich text formatting (headers, lists, code blocks)
+2. 90-Day Career Learning Roadmap
+
+Structured, day-locked learning plan
+AI-produced content and theory explanations
+Curated external resources
+Automated daily proficiency checks
+3. Dual Quiz System
+
+Academic Quiz: 15 questions from active courses
+Career Learning Quiz: 10 questions on current roadmap topic
+AI auto-scoring with personalized feedback
+Historical tracking and performance trends
+4. Wellbeing & Engagement Tracking
+
+Daily wellbeing indicators via intuitive slider interface
+Metrics: Happiness, Stress, Energy, Motivation, Sleep Quality
+Early pattern detection for disengagement or academic risk
+AI-generated motivational insights
+5. Predictive Analytics & Performance Dashboard
+
+Consolidated GPA, risk levels, quiz metrics, and course progress
+Interactive charts tracking performance trends
+Actionable insights for student improvement
+Personalized recommendations
+6. Admin Management Tools
+
+Manage courses and generate roadmaps
+Monitor at-risk students
+Aggregated academic and wellbeing data visualization
+Program-level analytics
+📋 Project Charter
+Project Name: ForgeEd - AI-Enhanced Learning Management System
+
+Sponsor: Saint Louis University
+
+Duration: 16-Week Master's Research Project
+
+Budget: Development Only (Academic Project)
+
+Objectives:
+
+Design and implement a unified AI-enhanced LMS
+Integrate academic, wellbeing, and career development features
+Create predictive analytics for early intervention
+Validate system effectiveness with synthetic data
+Demonstrate GenAI application in higher education
+Success Criteria:
+
+✅ Functional prototype with all core features
+✅ Database with synthetic student data
+✅ Interactive dashboard with real-time analytics
+✅ OpenAI API integration for personalized content
+✅ Admin management capabilities
+✅ Responsive UI across devices
+Deliverables:
+
+Fully functional Flask-based application
+SQLite database with schema
+Sample data and documentation
+Technical implementation guide
+Research report and insights
+🏗️ Architecture & Data Design
+Enterprise Architecture Diagram
+##Screenshot 2025-11-25 at 10 37 50 PM
+
+The ForgeEd system is organized across three architectural layers:
+
+Presentation Layer (User Interface)
+
+Student-facing portal with dashboard, quizzes, career learning, and chat
+Admin management interface for student and course administration
+Application Layer (Business Logic)
+
+Flask MVC web application handling all routes and business logic
+Core modules: SLU GPT AI assistant, 90-day roadmap generator, quiz engine, predictive analytics, and recommendation engine
+Dynamic data integration with SQLite database
+Data & Integration Layer
+
+SQLite database with 8 core tables (Students, Courses, Enrolled Courses, Daily Roadmap, Career/Academic Quiz History, Wellbeing Assessments)
+OpenAI API integration for intelligent content generation, scoring, and insights
+Real-time data flow supporting live GPA tracking, quiz performance, wellbeing scores, and course progress
+Database Schema (ER Diagram)
+mermaid-diagram-2025-11-23-200303
+Core Data Entities:
+
+STUDENTS: User profiles with credentials, academic metrics (GPA, completion rate), career goals, and background
+COURSES: Course catalog with codes, names, faculty information, and intake terms
+ENROLLED_COURSES: Junction table tracking student course enrollment, progress, grades, and modules completed
+DAILY_ROADMAP: 90-day personalized career learning path with day-locked topics, theory content, and resources
+CAREER_QUIZ_HISTORY: Historical records of Career Learning Quiz attempts with scores, answers, and AI feedback
+ACADEMIC_QUIZ_HISTORY: Historical records of Academic Quiz attempts linked to courses with performance data
+WELLBEING_ASSESSMENTS: Daily wellbeing check-ins tracking happiness, stress, energy, motivation, sleep quality, and AI-generated insights
+SLU_GPT_CHAT_HISTORY: Chat conversation history maintaining context for personalized AI tutoring interactions
+Relationships:
+
+Students have many Enrolled Courses and Daily Roadmaps (1:N)
+Students have many Quiz History records and Wellbeing Assessments (1:N)
+Courses have many Enrolled Students (1:N)
+All entities connect to create a unified student profile with integrated academic, career, and wellbeing data
+Data Flow
+Student Login Flow
+
+Credentials validated against STUDENTS table
+Session created with student context
+Dashboard Data Flow
+
+Aggregate queries across ENROLLED_COURSES, *_QUIZ_HISTORY, WELLBEING_ASSESSMENTS
+Calculate risk scores, GPA trends, completion rates
+Generate AI insights via OpenAI API
+Render interactive charts with Chart.js
+Quiz Submission Flow
+
+Quiz answers submitted → Database storage
+OpenAI API auto-scores → AI feedback generation
+Results stored in *_QUIZ_HISTORY tables
+Dashboard updated in real-time
+Career Roadmap Flow
+
+OpenAI API generates 90-day roadmap on student creation
+Daily content retrieved from DAILY_ROADMAP
+Completion marks unlock next day's content
+Quiz results influence recommendations
+Wellbeing Tracking Flow
+
+Daily assessment submitted → WELLBEING_ASSESSMENTS storage
+AI generates motivational insights
+Risk indicators trigger admin alerts
+Trends analyzed for early intervention
+📈 Dashboard & Data Analysis
+Key Dashboard Features
+Performance Metrics Dashboard
+
+Real-time GPA tracking
+Career Quiz performance (7-day trend)
+Academic Quiz performance (7-day trend)
+Wellbeing Score (7-day trend)
+Career readiness percentage
+Completion rate tracking
+Interactive Visualizations
+The ForgeEd dashboard uses Chart.js to render:
+
+Combined Performance Graph (Line Chart)
+
+Tracks Career Quiz, Academic Quiz, and Wellbeing over 7 days
+Color-coded by category (Purple, Blue, Orange)
+Responsive and real-time updating
+GPA Progression (Line Chart)
+
+Historical GPA trends
+Semester-over-semester comparison
+Predictive trend analysis
+Current vs Predicted Performance (Bar Chart)
+
+Current GPA by subject area
+Predicted GPA with current trajectory
+Visual gap analysis for intervention
+Risk Level Distribution (Status Indicator)
+
+High/Medium/Low risk calculation
+Based on recent quiz average scores
+Real-time risk assessment
+Key Insights Generated by AI
+ForgeEd's AI system analyzes dashboard data to produce:
+
+Academic Insights
+
+Performance patterns and anomalies
+Course difficulty assessments
+Study recommendations based on quiz performance
+Early warning signs of academic struggle
+Career Development Insights
+
+Career learning progress tracking
+Skill gap identification
+Course recommendations for career goals
+Industry-relevant competency assessments
+Wellbeing Insights
+
+Mental health trend analysis
+Stress correlation with academic performance
+Motivational support based on engagement patterns
+Holistic wellness recommendations
+Predictive Analytics
+
+End-of-semester GPA prediction
+Academic risk probability
+Intervention timing recommendations
+Personalized improvement strategies
+⚖️ Ethical & Social Considerations
+Data Privacy & Security
+Student data protection aligned with FERPA regulations
+Secure API key management through environment variables
+Session-based authentication to prevent unauthorized access
+Transparent data usage policies
+AI Bias & Fairness
+Training data reviewed for demographic bias
+Recommendations tested across diverse student populations
+Continuous monitoring for discriminatory patterns
+Explainable AI outputs for student transparency
+Accessibility
+WCAG 2.1 compliance for accessibility standards
+Keyboard navigation throughout the platform
+Screen reader optimization
+Color-blind friendly design choices
+Responsible AI Use
+Clear labeling of AI-generated content
+Student consent for data analysis
+Transparent risk calculations
+Human oversight for sensitive interventions
+Stakeholder Considerations
+Faculty involvement in recommendation validation
+Student agency in setting learning goals
+Administrative oversight for data governance
+Continuous feedback loops for improvement
+📚 Lessons Learned & Team Reflection
+Key Takeaways
+1. Complexity of Holistic Systems Building a system that truly integrates academic, emotional, and career dimensions is significantly more complex than standalone features. The interconnectedness requires careful data modeling, thoughtful UX design, and comprehensive testing.
+
+2. Value of User-Centric Design Early user research with actual SLU students validated our assumptions but also revealed unexpected needs. Iterative design based on real feedback was crucial to creating a system that resonates with users.
+
+3. AI Integration Challenges While OpenAI's API is powerful, prompt engineering and result validation are non-trivial. We learned the importance of:
+
+Testing multiple prompts
+Implementing guardrails against inappropriate outputs
+Fallback strategies for API failures
+Cost management through efficient API usage
+4. Data as a Critical Asset Quality synthetic data was essential for realistic prototyping. The process of generating realistic student profiles, quiz data, and wellbeing assessments helped us understand the domain deeply.
+
+5. Ethical Responsibility in EdTech Working with student data made ethical considerations paramount. We learned to build privacy-first, validate for bias, and maintain transparency with users about AI decision-making.
+
+Team Collaboration Insights
+Regular standups and async updates kept everyone aligned
+Clear documentation reduced dependencies between team members
+Code reviews strengthened technical quality
+Design-dev collaboration ensured feasibility of ideas
+Future Recommendations
+Expand to Mobile: Develop native mobile apps for better accessibility
+Enhanced Analytics: Implement more sophisticated ML models for prediction
+Peer Learning: Add collaborative features for study groups
+Faculty Dashboard: Create complementary tools for instructor insights
+Integration APIs: Enable connections with other university systems
+Continuous Learning: Implement feedback loops to improve AI model accuracy over time
+✨ Core Features
+Academic Features
+Student Dashboard: Track GPA, completion rate, Career Quiz performance, Academic Quiz performance, and Wellbeing scores
+Career Learning System: 90-day personalized learning roadmap with day-locking mechanism, AI-generated theory content, and curated external resources
+Dual Quiz System:
+Career Learning Quiz (10 questions on daily roadmap topic)
+Academic Quiz (15 questions from enrolled courses)
+AI-powered auto-scoring with personalized feedback
+Course Management: Enrollment tracking, progress monitoring, and AI-powered course recommendations
+AI-Powered Features
+Performance Analysis: Personalized insights based on academic metrics
+SLU GPT Chat Assistant: Context-aware conversational AI with rich text formatting
+Course Recommendations: Based on career goals and educational background
+90-Day Roadmap Generation: Personalized learning paths
+Theory Content Generation: AI-produced content for each roadmap topic
+Auto-Scoring: Quiz auto-generation and scoring with personalized feedback
+Wellbeing Insights: AI-generated motivational support
+Wellbeing & Analytics
+Wellbeing Tracking: Daily mental health assessments with emoji sliders (happiness, stress, energy, motivation, sleep)
+Performance Analytics: Interactive Chart.js line graphs tracking Career Quiz, Academic Quiz, and Wellbeing scores
+Predictive Risk Assessment: Early detection of academic and emotional risk
+Admin Monitoring: Comprehensive admin interface for student performance tracking
+Admin Features
+Manage Students: Add/delete students with automatic roadmap generation
+Manage Courses: Add/delete courses from the catalog
+Student Monitoring: View comprehensive student performance metrics
+Risk Alerts: Identify at-risk students for intervention
+🛠️ Tech Stack
+Backend: Python, Flask, Flask-Login, Flask-WTF
+Database: SQLite with comprehensive schema
+AI/ML: OpenAI GPT API for content generation and analysis
+Frontend: HTML5, CSS3, JavaScript, Chart.js
+Authentication: Flask Sessions
+Deployment: Replit (Live at https://forgeed.replit.app/)
