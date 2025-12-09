@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForgeEd - AI-Enhanced Learning Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="assets/images/logo.png" alt="ForgeEd Logo" class="nav-logo-img">
+                <span>ForgeEd</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#summary" class="nav-link">Summary</a></li>
+                <li><a href="#problem" class="nav-link">Problem</a></li>
+                <li><a href="#solution" class="nav-link">Solution</a></li>
+                <li><a href="#architecture" class="nav-link">Architecture</a></li>
+                <li><a href="#database" class="nav-link">Database</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="assets/images/logo.png" alt="ForgeEd Logo" class="hero-logo">
+            <h1>ForgeEd</h1>
+            <p class="hero-subtitle">AI-Enhanced Learning Management System</p>
+            <p class="hero-description">A unified platform supporting students holistically across academics, wellbeing, and career development</p>
+            <div class="hero-buttons">
+                <a href="https://forgeed.replit.app/" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="https://github.com/pavankumars97531/forgeed" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            <div class="hero-sponsor">
+                <p>A 16-Week Master's Research Project</p>
+                <p><strong>Sponsor:</strong> Saint Louis University</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="summary" class="section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-chart-bar"></i> Executive Summary</h2>
+            <div class="content-card">
+                <p class="lead">The rapid evolution of Generative AI is reshaping expectations in higher education, yet most university systems remain fragmented—separating academics, wellbeing, and career development into disconnected platforms.</p>
+                
+                <h3>The Problem</h3>
+                <p>Students lack a unified, personalized support system that can guide them academically, emotionally, and professionally. This fragmentation results in:</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-times-circle"></i> Inconsistent academic performance</li>
+                    <li><i class="fas fa-times-circle"></i> Poor course selection and planning</li>
+                    <li><i class="fas fa-times-circle"></i> Disconnected mental health support</li>
+                    <li><i class="fas fa-times-circle"></i> Limited career preparedness</li>
+                </ul>
+
+                <h3>Our Solution</h3>
+                <p>ForgeEd integrates traditional LMS capabilities with advanced GenAI features:</p>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-robot"></i>
+                        <h4>Personalized Tutoring</h4>
+                        <p>SLU GPT - 24/7 AI academic support</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-road"></i>
+                        <h4>Learning Pathways</h4>
+                        <p>90-day career learning roadmaps</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-clipboard-check"></i>
+                        <h4>Dual-Quiz Assessments</h4>
+                        <p>Career and academic tracking</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-heart"></i>
+                        <h4>Wellbeing Monitoring</h4>
+                        <p>Daily mental health indicators</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Predictive Analytics</h4>
+                        <p>Early risk detection</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Dynamic Recommendations</h4>
+                        <p>Personalized suggestions</p>
+                    </div>
+                </div>
+
+                <div class="impact-box">
+                    <h3><i class="fas fa-bullseye"></i> Expected Impact</h3>
+                    <p>Improved GPA outcomes, early detection of academic risk, increased student engagement, better career alignment, and reduced faculty workload through intelligent automation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-search"></i> Problem Context & Research</h2>
+            <div class="content-card">
+                <h3>The Challenge</h3>
+                <p>Higher education is undergoing significant transformation as universities attempt to integrate emerging GenAI technologies into traditional academic structures. Most universities rely on fragmented systems that separately manage courses, wellbeing services, and career support.</p>
+                
+                <div class="problem-statement">
+                    <h4>Core Problem</h4>
+                    <p>Students do not receive integrated, timely, and personalized support across academics, wellbeing, and career development, leading to:</p>
+                    <ul>
+                        <li>Irregular academic performance</li>
+                        <li>Unnecessary stress</li>
+                        <li>Inefficient course planning</li>
+                        <li>Limited preparedness for industry roles</li>
+                    </ul>
+                </div>
+
+                <h3>Key Stakeholders</h3>
+                <div class="stakeholder-grid">
+                    <div class="stakeholder-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h4>Students</h4>
+                        <p>Struggle with navigating multiple systems and lack actionable insights into academic trajectory</p>
+                    </div>
+                    <div class="stakeholder-card">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h4>Faculty</h4>
+                        <p>Face pressure to provide individualized feedback while managing grading and administration</p>
+                    </div>
+                    <div class="stakeholder-card">
+                        <i class="fas fa-user-tie"></i>
+                        <h4>Advisors</h4>
+                        <p>Require holistic student views for course selection and progress monitoring</p>
+                    </div>
+                    <div class="stakeholder-card">
+                        <i class="fas fa-university"></i>
+                        <h4>Administration</h4>
+                        <p>Aim to enhance retention rates and support student wellbeing</p>
+                    </div>
+                </div>
+
+                <h3>Industry Trends</h3>
+                <div class="trends-list">
+                    <div class="trend-item">
+                        <span class="trend-icon"><i class="fas fa-brain"></i></span>
+                        <span>GenAI-Driven Adaptive Learning</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-icon"><i class="fas fa-comments"></i></span>
+                        <span>AI Copilots for Research & Tutoring</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-icon"><i class="fas fa-tachometer-alt"></i></span>
+                        <span>Integrated Dashboards</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-icon"><i class="fas fa-exclamation-triangle"></i></span>
+                        <span>Early-Risk Detection Models</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-icon"><i class="fas fa-id-card"></i></span>
+                        <span>Holistic Student Profiles</span>
+                    </div>
+                </div>
+
+                <h3>Key Research Findings</h3>
+                <ul class="findings-list">
+                    <li><strong>Existing LMS Limitations:</strong> Current platforms are primarily administrative—lacking deep personalization and behavioral insights</li>
+                    <li><strong>Holistic Data Importance:</strong> Combining academic metrics with wellbeing indicators creates more accurate student representations</li>
+                    <li><strong>Early Intervention Value:</strong> Students benefit significantly from early warnings and personalized recommendations</li>
+                    <li><strong>Market Demand:</strong> Strong evidence supports demand for adaptive learning tools and AI-powered academic coaching</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-lightbulb"></i> Proposed Solution</h2>
+            <div class="content-card">
+                <p class="lead">ForgeEd is a unified, AI-enhanced Learning Management System designed to support students holistically across academics, wellbeing, and career development.</p>
+
+                <h3>Core Functional Modules</h3>
+                <div class="modules-grid">
+                    <div class="module-card">
+                        <div class="module-number">1</div>
+                        <h4>AI-Powered Learning & Tutoring (SLU GPT)</h4>
+                        <ul>
+                            <li>24/7 academic support and personalized explanations</li>
+                            <li>Study strategies and contextual guidance</li>
+                            <li>Based on enrolled courses and career goals</li>
+                            <li>Rich text formatting (headers, lists, code blocks)</li>
+                        </ul>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">2</div>
+                        <h4>90-Day Career Learning Roadmap</h4>
+                        <ul>
+                            <li>Structured, day-locked learning plan</li>
+                            <li>AI-produced content and theory explanations</li>
+                            <li>Curated external resources</li>
+                            <li>Automated daily proficiency checks</li>
+                        </ul>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">3</div>
+                        <h4>Dual Quiz System</h4>
+                        <ul>
+                            <li>Academic Quiz: 15 questions from active courses</li>
+                            <li>Career Learning Quiz: 10 questions on roadmap topic</li>
+                            <li>AI auto-scoring with personalized feedback</li>
+                            <li>Historical tracking and performance trends</li>
+                        </ul>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">4</div>
+                        <h4>Wellbeing & Engagement Tracking</h4>
+                        <ul>
+                            <li>Daily wellbeing indicators via slider interface</li>
+                            <li>Metrics: Happiness, Stress, Energy, Motivation, Sleep</li>
+                            <li>Early pattern detection for disengagement</li>
+                            <li>AI-generated motivational insights</li>
+                        </ul>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">5</div>
+                        <h4>Predictive Analytics Dashboard</h4>
+                        <ul>
+                            <li>Consolidated GPA, risk levels, quiz metrics</li>
+                            <li>Interactive charts tracking performance trends</li>
+                            <li>Actionable insights for improvement</li>
+                            <li>Personalized recommendations</li>
+                        </ul>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-number">6</div>
+                        <h4>Admin Management Tools</h4>
+                        <ul>
+                            <li>Manage courses and generate roadmaps</li>
+                            <li>Monitor at-risk students</li>
+                            <li>Aggregated data visualization</li>
+                            <li>Program-level analytics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Project Charter</h3>
+                <div class="charter-grid">
+                    <div class="charter-item">
+                        <h4><i class="fas fa-building"></i> Sponsor</h4>
+                        <p>Saint Louis University</p>
+                    </div>
+                    <div class="charter-item">
+                        <h4><i class="fas fa-clock"></i> Duration</h4>
+                        <p>16-Week Master's Research Project</p>
+                    </div>
+                    <div class="charter-item">
+                        <h4><i class="fas fa-dollar-sign"></i> Budget</h4>
+                        <p>Development Only (Academic Project)</p>
+                    </div>
+                </div>
+
+                <h3>Success Criteria</h3>
+                <ul class="success-list">
+                    <li><i class="fas fa-check-circle"></i> Functional prototype with all core features</li>
+                    <li><i class="fas fa-check-circle"></i> Database with synthetic student data</li>
+                    <li><i class="fas fa-check-circle"></i> Interactive dashboard with real-time analytics</li>
+                    <li><i class="fas fa-check-circle"></i> OpenAI API integration for personalized content</li>
+                    <li><i class="fas fa-check-circle"></i> Admin management capabilities</li>
+                    <li><i class="fas fa-check-circle"></i> Responsive UI across devices</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="architecture" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-sitemap"></i> Architecture & Design</h2>
+            <div class="content-card">
+                <h3>Enterprise Architecture Diagram</h3>
+                <div class="diagram-container">
+                    <img src="assets/images/architecture.png" alt="ForgeEd Architecture Diagram" class="diagram-image">
+                </div>
+
+                <h3>Architecture Layers</h3>
+                <div class="architecture-layers">
+                    <div class="layer-card">
+                        <h4><i class="fas fa-desktop"></i> Presentation Layer</h4>
+                        <ul>
+                            <li>Student-facing portal with dashboard, quizzes, career learning, and chat</li>
+                            <li>Admin management interface for student and course administration</li>
+                        </ul>
+                    </div>
+                    <div class="layer-card">
+                        <h4><i class="fas fa-cogs"></i> Application Layer</h4>
+                        <ul>
+                            <li>Flask MVC web application handling all routes and business logic</li>
+                            <li>Core modules: SLU GPT AI assistant, 90-day roadmap generator, quiz engine, predictive analytics, and recommendation engine</li>
+                            <li>Dynamic data integration with SQLite database</li>
+                        </ul>
+                    </div>
+                    <div class="layer-card">
+                        <h4><i class="fas fa-database"></i> Data & Integration Layer</h4>
+                        <ul>
+                            <li>SQLite database with 8 core tables</li>
+                            <li>OpenAI API integration for intelligent content generation</li>
+                            <li>Real-time data flow supporting live GPA tracking</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Technology Stack</h3>
+                <div class="tech-stack">
+                    <div class="tech-category">
+                        <h4>Backend</h4>
+                        <div class="tech-items">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Flask</span>
+                            <span class="tech-badge">Flask-Login</span>
+                            <span class="tech-badge">SQLite</span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <h4>AI/ML</h4>
+                        <div class="tech-items">
+                            <span class="tech-badge">OpenAI GPT API</span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Frontend</h4>
+                        <div class="tech-items">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Chart.js</span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Deployment</h4>
+                        <div class="tech-items">
+                            <span class="tech-badge">Replit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="database" class="section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-database"></i> Database Design</h2>
+            <div class="content-card">
+                <h3>Entity Relationship Diagram</h3>
+                <div class="diagram-container">
+                    <img src="assets/images/er-diagram.png" alt="ForgeEd ER Diagram" class="diagram-image">
+                </div>
+
+                <h3>Core Data Entities</h3>
+                <div class="entities-grid">
+                    <div class="entity-card">
+                        <h4><i class="fas fa-user"></i> STUDENTS</h4>
+                        <p>User profiles with credentials, academic metrics (GPA, completion rate), career goals, and background</p>
+                    </div>
+                    <div class="entity-card">
+                        <h4><i class="fas fa-book"></i> COURSES</h4>
+                        <p>Course catalog with codes, names, faculty information, and intake terms</p>
+                    </div>
+                    <div class="entity-card">
+                        <h4><i class="fas fa-link"></i> ENROLLED_COURSES</h4>
+                        <p>Junction table tracking student course enrollment, progress, grades, and modules completed</p>
+                    </div>
+                    <div class="entity-card">
+                        <h4><i class="fas fa-map"></i> DAILY_ROADMAP</h4>
+                        <p>90-day personalized career learning path with day-locked topics and resources</p>
+                    </div>
+                    <div class="entity-card">
+                        <h4><i class="fas fa-briefcase"></i> CAREER_QUIZ_HISTORY</h4>
+                        <p>Historical records of Career Learning Quiz attempts with scores and AI feedback</p>
+                    </div>
+                    <div class="entity-card">
+                        <h4><i class="fas fa-graduation-cap"></i> ACADEMIC_QUIZ_HISTORY</h4>
+                        <p>Historical records of Academic Quiz attempts with performance data</p>
+                    </div>
+                    <div class="entity-card">
+                        <h4><i class="fas fa-heart"></i> WELLBEING_ASSESSMENTS</h4>
+                        <p>Daily wellbeing check-ins tracking happiness, stress, energy, motivation, sleep quality</p>
+                    </div>
+                    <div class="entity-card">
+                        <h4><i class="fas fa-comments"></i> SLU_GPT_CHAT_HISTORY</h4>
+                        <p>Chat conversation history maintaining context for personalized AI tutoring</p>
+                    </div>
+                </div>
+
+                <h3>Data Relationships</h3>
+                <ul class="relationships-list">
+                    <li><i class="fas fa-arrow-right"></i> Students have many Enrolled Courses and Daily Roadmaps (1:N)</li>
+                    <li><i class="fas fa-arrow-right"></i> Students have many Quiz History records and Wellbeing Assessments (1:N)</li>
+                    <li><i class="fas fa-arrow-right"></i> Courses have many Enrolled Students (1:N)</li>
+                    <li><i class="fas fa-arrow-right"></i> All entities connect to create a unified student profile</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-star"></i> Core Features</h2>
+            <div class="content-card">
+                <div class="features-categories">
+                    <div class="feature-category">
+                        <h3><i class="fas fa-book-open"></i> Academic Features</h3>
+                        <ul>
+                            <li><strong>Student Dashboard:</strong> Track GPA, completion rate, Career Quiz performance, Academic Quiz performance, and Wellbeing scores</li>
+                            <li><strong>Career Learning System:</strong> 90-day personalized learning roadmap with day-locking mechanism</li>
+                            <li><strong>Dual Quiz System:</strong> Career Learning Quiz (10 questions) and Academic Quiz (15 questions) with AI-powered auto-scoring</li>
+                            <li><strong>Course Management:</strong> Enrollment tracking, progress monitoring, and AI-powered course recommendations</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-category">
+                        <h3><i class="fas fa-robot"></i> AI-Powered Features</h3>
+                        <ul>
+                            <li><strong>Performance Analysis:</strong> Personalized insights based on academic metrics</li>
+                            <li><strong>SLU GPT Chat Assistant:</strong> Context-aware conversational AI with rich text formatting</li>
+                            <li><strong>Course Recommendations:</strong> Based on career goals and educational background</li>
+                            <li><strong>90-Day Roadmap Generation:</strong> Personalized learning paths</li>
+                            <li><strong>Theory Content Generation:</strong> AI-produced content for each roadmap topic</li>
+                            <li><strong>Wellbeing Insights:</strong> AI-generated motivational support</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-category">
+                        <h3><i class="fas fa-heartbeat"></i> Wellbeing & Analytics</h3>
+                        <ul>
+                            <li><strong>Wellbeing Tracking:</strong> Daily mental health assessments with emoji sliders</li>
+                            <li><strong>Performance Analytics:</strong> Interactive Chart.js line graphs</li>
+                            <li><strong>Predictive Risk Assessment:</strong> Early detection of academic and emotional risk</li>
+                            <li><strong>Admin Monitoring:</strong> Comprehensive admin interface for student performance tracking</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-category">
+                        <h3><i class="fas fa-user-shield"></i> Admin Features</h3>
+                        <ul>
+                            <li><strong>Manage Students:</strong> Add/delete students with automatic roadmap generation</li>
+                            <li><strong>Manage Courses:</strong> Add/delete courses from the catalog</li>
+                            <li><strong>Student Monitoring:</strong> View comprehensive student performance metrics</li>
+                            <li><strong>Risk Alerts:</strong> Identify at-risk students for intervention</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3><i class="fas fa-balance-scale"></i> Ethical Considerations</h3>
+                <div class="ethics-grid">
+                    <div class="ethics-item">
+                        <i class="fas fa-lock"></i>
+                        <h4>Data Privacy</h4>
+                        <p>FERPA-aligned data protection with secure API key management</p>
+                    </div>
+                    <div class="ethics-item">
+                        <i class="fas fa-balance-scale"></i>
+                        <h4>AI Fairness</h4>
+                        <p>Bias monitoring and explainable AI outputs for transparency</p>
+                    </div>
+                    <div class="ethics-item">
+                        <i class="fas fa-universal-access"></i>
+                        <h4>Accessibility</h4>
+                        <p>WCAG 2.1 compliance with keyboard navigation and screen reader support</p>
+                    </div>
+                    <div class="ethics-item">
+                        <i class="fas fa-eye"></i>
+                        <h4>Responsible AI</h4>
+                        <p>Clear labeling, student consent, and human oversight</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-users"></i> Team ForgeEd</h2>
+            <div class="content-card">
+                <div class="team-photo-container">
+                    <img src="assets/images/team.jpeg" alt="Team ForgeEd" class="team-photo">
+                </div>
+                <div class="team-members">
+                    <div class="team-member">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Ullas Giddegowda Gowda</span>
+                    </div>
+                    <div class="team-member">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Pavan Kumar Suresh</span>
+                    </div>
+                    <div class="team-member">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Pranay Reddy Shashidhar Reddy</span>
+                    </div>
+                    <div class="team-member">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Ruthvik Ajit Chiniwal</span>
+                    </div>
+                    <div class="team-member">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Harshith Shivaswamy</span>
+                    </div>
+                </div>
+
+                <h3>Key Lessons Learned</h3>
+                <div class="lessons-grid">
+                    <div class="lesson-card">
+                        <h4>Complexity of Holistic Systems</h4>
+                        <p>Building a system that truly integrates academic, emotional, and career dimensions requires careful data modeling and comprehensive testing.</p>
+                    </div>
+                    <div class="lesson-card">
+                        <h4>User-Centric Design</h4>
+                        <p>Early user research with actual SLU students validated assumptions and revealed unexpected needs.</p>
+                    </div>
+                    <div class="lesson-card">
+                        <h4>AI Integration Challenges</h4>
+                        <p>Prompt engineering and result validation are non-trivial. Fallback strategies for API failures are essential.</p>
+                    </div>
+                    <div class="lesson-card">
+                        <h4>Ethical Responsibility</h4>
+                        <p>Working with student data made ethical considerations paramount - building privacy-first systems.</p>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Explore ForgeEd</h3>
+                    <div class="cta-buttons">
+                        <a href="https://forgeed.replit.app/" target="_blank" class="btn btn-primary btn-large">
+                            <i class="fas fa-external-link-alt"></i> View Live Demo
+                        </a>
+                        <a href="https://github.com/pavankumars97531/forgeed" target="_blank" class="btn btn-secondary btn-large">
+                            <i class="fab fa-github"></i> View Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="ForgeEd Logo">
+                    <span>ForgeEd</span>
+                </div>
+                <p>AI-Enhanced Learning Management System</p>
+                <p class="footer-sponsor">A Master's Research Project at Saint Louis University</p>
+                <div class="footer-links">
+                    <a href="https://forgeed.replit.app/" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                    <a href="https://github.com/pavankumars97531/forgeed" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+                <p class="footer-copyright">&copy; 2025 Team ForgeEd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
